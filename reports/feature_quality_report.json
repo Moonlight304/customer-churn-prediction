@@ -1,0 +1,27 @@
+{
+  "rows": 44355,
+  "unique_key_rows": 44355,
+  "duplicate_key_rows": 0,
+  "label_distribution": {
+    "0": 39591,
+    "1": 4764
+  },
+  "negative_day_counts": {
+    "days_since_last_payment": 0,
+    "days_since_last_call": 0,
+    "days_since_last_cc_call": 0
+  },
+  "dropped_sparse_or_constant_features": [
+    "cancel_intent",
+    "cc_calls_last_7",
+    "financial_issues",
+    "high_call_volume",
+    "payment_trend",
+    "payments_last_30",
+    "payments_last_90",
+    "serious_complaints",
+    "spend_last_30",
+    "spend_last_90",
+    "switch_intent"
+  ]
+}

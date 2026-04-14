@@ -1,0 +1,90 @@
+[
+  {
+    "feature": "tenure_years",
+    "test": "Mann-Whitney U",
+    "p_value": 1.009226193569861e-278,
+    "significant_0_05": true,
+    "churn_median": 3.0,
+    "nonchurn_median": 6.0
+  },
+  {
+    "feature": "total_spent",
+    "test": "Mann-Whitney U",
+    "p_value": 0.02420560601322912,
+    "significant_0_05": true,
+    "churn_median": 0.0,
+    "nonchurn_median": 0.0
+  },
+  {
+    "feature": "num_payments",
+    "test": "Mann-Whitney U",
+    "p_value": 0.027507884309628246,
+    "significant_0_05": true,
+    "churn_median": 0.0,
+    "nonchurn_median": 0.0
+  },
+  {
+    "feature": "total_calls",
+    "test": "Mann-Whitney U",
+    "p_value": 0.09877308529032983,
+    "significant_0_05": false,
+    "churn_median": 0.0,
+    "nonchurn_median": 0.0
+  },
+  {
+    "feature": "total_cc_calls",
+    "test": "Mann-Whitney U",
+    "p_value": 1.0982511402303312e-13,
+    "significant_0_05": true,
+    "churn_median": 0.0,
+    "nonchurn_median": 0.0
+  },
+  {
+    "feature": "engagement_score",
+    "test": "Mann-Whitney U",
+    "p_value": 7.404357994307941e-11,
+    "significant_0_05": true,
+    "churn_median": 0.0,
+    "nonchurn_median": 0.0
+  },
+  {
+    "feature": "days_since_last_payment",
+    "test": "Mann-Whitney U",
+    "p_value": 0.027361319447079323,
+    "significant_0_05": true,
+    "churn_median": 0.0,
+    "nonchurn_median": 0.0
+  },
+  {
+    "feature": "payment_method",
+    "test": "Chi-square",
+    "p_value": 0.0,
+    "significant_0_05": true,
+    "chi2": 26722.970365689176,
+    "dof": 4
+  },
+  {
+    "feature": "band",
+    "test": "Chi-square",
+    "p_value": 8.032444487973945e-196,
+    "significant_0_05": true,
+    "chi2": 959.390812603493,
+    "dof": 14
+  },
+  {
+    "feature": "proforma_auto_renewal",
+    "test": "Chi-square",
+    "p_value": 1.2243352878451043e-12,
+    "significant_0_05": true,
+    "chi2": 50.44689231134791,
+    "dof": 1
+  },
+  {
+    "feature": "proforma_world_pay_token",
+    "test": "Chi-square",
+    "p_value": 1.1620780607892474e-06,
+    "significant_0_05": true,
+    "chi2": 23.63900784770744,
+    "dof": 1
+  }
+]

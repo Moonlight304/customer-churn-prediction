@@ -1,0 +1,324 @@
+{
+  "summary": {
+    "rows": 44355,
+    "cols": 57,
+    "target_rate": 0.1074061548867095
+  },
+  "constant_numeric_columns": [
+    "spend_last_30",
+    "payment_trend",
+    "spend_last_90",
+    "payments_last_90",
+    "payments_last_30",
+    "cancel_intent"
+  ],
+  "high_zero_numeric_columns_95pct_plus": [
+    {
+      "feature": "spend_last_30",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "payment_trend",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "spend_last_90",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "payments_last_90",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "payments_last_30",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "cancel_intent",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "switch_intent",
+      "zero_pct": 99.97745462743772,
+      "na_pct": 0.0,
+      "nunique": 2
+    },
+    {
+      "feature": "cc_calls_last_7",
+      "zero_pct": 99.97069101566903,
+      "na_pct": 0.0,
+      "nunique": 2
+    },
+    {
+      "feature": "high_call_volume",
+      "zero_pct": 99.96618194115658,
+      "na_pct": 0.0,
+      "nunique": 2
+    },
+    {
+      "feature": "serious_complaints",
+      "zero_pct": 99.79483710968323,
+      "na_pct": 0.0,
+      "nunique": 5
+    },
+    {
+      "feature": "financial_issues",
+      "zero_pct": 99.78807349791455,
+      "na_pct": 0.0,
+      "nunique": 4
+    },
+    {
+      "feature": "total_complaints",
+      "zero_pct": 99.4724382820426,
+      "na_pct": 0.0,
+      "nunique": 3
+    },
+    {
+      "feature": "customer_issues",
+      "zero_pct": 99.31011159959418,
+      "na_pct": 0.0,
+      "nunique": 4
+    },
+    {
+      "feature": "pricing_mentions",
+      "zero_pct": 99.11847593281479,
+      "na_pct": 0.0,
+      "nunique": 5
+    },
+    {
+      "feature": "discount_requests",
+      "zero_pct": 98.94487656408522,
+      "na_pct": 0.0,
+      "nunique": 4
+    },
+    {
+      "feature": "cc_calls_last_30",
+      "zero_pct": 98.69913200315635,
+      "na_pct": 0.0,
+      "nunique": 5
+    },
+    {
+      "feature": "repeat_call_ratio",
+      "zero_pct": 98.69913200315635,
+      "na_pct": 0.0,
+      "nunique": 10
+    },
+    {
+      "feature": "total_spent",
+      "zero_pct": 97.33288242588209,
+      "na_pct": 0.0,
+      "nunique": 103
+    },
+    {
+      "feature": "avg_payment",
+      "zero_pct": 97.33288242588209,
+      "na_pct": 0.0,
+      "nunique": 103
+    },
+    {
+      "feature": "days_since_last_payment",
+      "zero_pct": 97.33062788862587,
+      "na_pct": 0.0,
+      "nunique": 4
+    },
+    {
+      "feature": "num_payments",
+      "zero_pct": 97.33062788862587,
+      "na_pct": 0.0,
+      "nunique": 2
+    },
+    {
+      "feature": "price_discussions",
+      "zero_pct": 96.8459023785368,
+      "na_pct": 0.0,
+      "nunique": 7
+    },
+    {
+      "feature": "financial_stress",
+      "zero_pct": 95.36016232668246,
+      "na_pct": 0.0,
+      "nunique": 5
+    },
+    {
+      "feature": "avg_cc_sentiment",
+      "zero_pct": 95.06256340886033,
+      "na_pct": 0.0,
+      "nunique": 48
+    }
+  ],
+  "top_zero_numeric_columns": [
+    {
+      "feature": "spend_last_30",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "payment_trend",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "spend_last_90",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "payments_last_90",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "payments_last_30",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "cancel_intent",
+      "zero_pct": 100.0,
+      "na_pct": 0.0,
+      "nunique": 1
+    },
+    {
+      "feature": "switch_intent",
+      "zero_pct": 99.97745462743772,
+      "na_pct": 0.0,
+      "nunique": 2
+    },
+    {
+      "feature": "cc_calls_last_7",
+      "zero_pct": 99.97069101566903,
+      "na_pct": 0.0,
+      "nunique": 2
+    },
+    {
+      "feature": "high_call_volume",
+      "zero_pct": 99.96618194115658,
+      "na_pct": 0.0,
+      "nunique": 2
+    },
+    {
+      "feature": "serious_complaints",
+      "zero_pct": 99.79483710968323,
+      "na_pct": 0.0,
+      "nunique": 5
+    },
+    {
+      "feature": "financial_issues",
+      "zero_pct": 99.78807349791455,
+      "na_pct": 0.0,
+      "nunique": 4
+    },
+    {
+      "feature": "total_complaints",
+      "zero_pct": 99.4724382820426,
+      "na_pct": 0.0,
+      "nunique": 3
+    },
+    {
+      "feature": "customer_issues",
+      "zero_pct": 99.31011159959418,
+      "na_pct": 0.0,
+      "nunique": 4
+    },
+    {
+      "feature": "pricing_mentions",
+      "zero_pct": 99.11847593281479,
+      "na_pct": 0.0,
+      "nunique": 5
+    },
+    {
+      "feature": "discount_requests",
+      "zero_pct": 98.94487656408522,
+      "na_pct": 0.0,
+      "nunique": 4
+    }
+  ],
+  "categorical_top_values": [
+    {
+      "feature": "co_ref",
+      "top_values": {
+        "CP3008": 4,
+        "HM8968": 4,
+        "FR8342": 4
+      }
+    },
+    {
+      "feature": "prospect_outcome",
+      "top_values": {
+        "Won": 39591,
+        "Churned": 4764
+      }
+    },
+    {
+      "feature": "payment_method",
+      "top_values": {
+        "CARD": 28000,
+        "BACS": 12596,
+        "UNKNOWN": 2957
+      }
+    },
+    {
+      "feature": "band",
+      "top_values": {
+        "Band B": 11913,
+        "Band C1": 9289,
+        "Band D": 6864
+      }
+    },
+    {
+      "feature": "proforma_auto_renewal",
+      "top_values": {
+        "True": 36972,
+        "False": 7383
+      }
+    },
+    {
+      "feature": "proforma_world_pay_token",
+      "top_values": {
+        "False": 29456,
+        "True": 14899
+      }
+    },
+    {
+      "feature": "last_payment_date",
+      "top_values": {
+        "Unknown": 43171,
+        "2025-02-01": 112,
+        "2023-02-01": 111
+      }
+    },
+    {
+      "feature": "last_call_date",
+      "top_values": {
+        "Unknown": 29318,
+        "2025-01-15": 160,
+        "2025-01-13": 140
+      }
+    },
+    {
+      "feature": "last_cc_call",
+      "top_values": {
+        "Unknown": 41881,
+        "2025-01-07": 49,
+        "2025-02-12": 47
+      }
+    }
+  ]
+}

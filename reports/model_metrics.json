@@ -1,0 +1,51 @@
+{
+  "split_sizes": {
+    "train": 28093,
+    "valid": 7485,
+    "test": 8777
+  },
+  "customer_overlap": {
+    "train_valid": 0,
+    "train_test": 0,
+    "valid_test": 0
+  },
+  "models": {
+    "logistic": {
+      "validation": {
+        "roc_auc": 0.9977467915997021,
+        "pr_auc": 0.9840540283457965,
+        "precision": 1.0,
+        "recall": 0.967479674796748,
+        "f1": 0.9834710743801653,
+        "threshold": 0.9596382709280452
+      },
+      "test": {
+        "roc_auc": 0.999397449083388,
+        "pr_auc": 0.9927326233570999,
+        "precision": 1.0,
+        "recall": 0.9357429718875502,
+        "f1": 0.966804979253112,
+        "threshold": 0.9596382709280452
+      }
+    },
+    "xgboost": {
+      "validation": {
+        "roc_auc": 0.9973868398029193,
+        "pr_auc": 0.9849411295347166,
+        "precision": 1.0,
+        "recall": 0.9796747967479674,
+        "f1": 0.9897330595482546,
+        "threshold": 0.9495645761489868
+      },
+      "test": {
+        "roc_auc": 0.9998980443349382,
+        "pr_auc": 0.9981298584897531,
+        "precision": 1.0,
+        "recall": 0.9919678714859438,
+        "f1": 0.9959677419354839,
+        "threshold": 0.9495645761489868
+      }
+    }
+  },
+  "xgboost_available": true
+}

@@ -1,0 +1,12 @@
+feature,test,p_value,significant_0_05,churn_median,nonchurn_median,chi2,dof
+payment_method,Chi-square,0.0,True,,,26722.970365689176,4.0
+tenure_years,Mann-Whitney U,1.009226193569861e-278,True,3.0,6.0,,
+band,Chi-square,8.032444487973945e-196,True,,,959.390812603493,14.0
+total_cc_calls,Mann-Whitney U,1.0982511402303312e-13,True,0.0,0.0,,
+proforma_auto_renewal,Chi-square,1.2243352878451043e-12,True,,,50.44689231134791,1.0
+engagement_score,Mann-Whitney U,7.404357994307941e-11,True,0.0,0.0,,
+proforma_world_pay_token,Chi-square,1.1620780607892474e-06,True,,,23.63900784770744,1.0
+total_spent,Mann-Whitney U,0.02420560601322912,True,0.0,0.0,,
+days_since_last_payment,Mann-Whitney U,0.027361319447079323,True,0.0,0.0,,
+num_payments,Mann-Whitney U,0.027507884309628246,True,0.0,0.0,,
+total_calls,Mann-Whitney U,0.09877308529032983,False,0.0,0.0,,
