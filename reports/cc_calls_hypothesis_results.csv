@@ -1,0 +1,12 @@
+feature,p_value,adjusted_p,significant
+avg_cc_sentiment,3.0345064293176584e-06,3.337957072249424e-05,True
+days_since_last_cc_call,0.051866603137198916,0.285266317254594,False
+cc_calls_last_30,0.1449095450544482,0.5313349985329767,False
+pricing_mentions,0.27016773154689533,0.7429612617539622,False
+cc_calls_last_7,0.4267226125544149,0.7881369108149817,False
+total_cc_calls,0.5015416705186247,0.7881369108149817,False
+repeat_call_ratio,0.4667534732453319,0.7881369108149817,False
+total_complaints,1.0,1.0,False
+financial_issues,1.0,1.0,False
+customer_issues,1.0,1.0,False
+high_call_volume,0.8676297775862593,1.0,False

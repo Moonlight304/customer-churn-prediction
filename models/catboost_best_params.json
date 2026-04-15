@@ -1,0 +1,11 @@
+{
+  "scale_pos_weight": 7.497235360735461,
+  "rsm": 1.0,
+  "random_strength": 2.0,
+  "min_data_in_leaf": 10,
+  "learning_rate": 0.02,
+  "l2_leaf_reg": 7,
+  "iterations": 600,
+  "depth": 6,
+  "border_count": 64
+}
